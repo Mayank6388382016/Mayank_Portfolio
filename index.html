@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayank Kumar Verma</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Montserrat:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Theme Toggle -->
+    <button id="theme-toggle" onclick="toggleTheme()">🌙</button>
+
+    <!-- Header Section -->
+    <div class="header">
+        <img class="cloud top-cloud" src="images/cloud.png" alt="cloud">
+        <h1>I'm <span class="highlight">Mayank</span>.</h1>
+        <h2>Full Stack Developer & Problem Solver</h2>
+        <img class="cloud bottom-cloud" src="images/cloud.png" alt="cloud">
+        <img class="mountain" src="images/mountain.png" alt="mountain">
+    </div>
+    
+    <!-- About Me Section -->
+    <section class="about-me">
+        <div class="about-container">
+            <div class="about-profile">
+                <img src="images/mayank.png" alt="Mayank's Picture" class="profile-img">
+                <h2>Mayank Kumar Verma</h2>
+                <!-- <p>Full Stack Developer & Problem Solver</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/mayank-kumar-verma-6a10a91a0/" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/Mayank6388382016" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div> -->
+            </div>
+            <div class="about-content">
+                <h2>About Me</h2>
+                <p>
+                    I am a passionate Full Stack Developer with expertise in building efficient and user-friendly applications. 
+                    I thrive on solving complex problems with clean, maintainable code and have experience in both front-end and back-end development.
+                </p>
+                <p>
+                    My technical stack includes <strong>HTML, CSS, JavaScript, React.js, Node.js, Express.js, MongoDB, and SQL</strong>. 
+                    I constantly explore new tools and frameworks to improve my skills and stay updated in the fast-moving tech world.
+                </p>
+                <button class="cv-btn" onclick="downloadCV()">Download My CV</button>
+            </div>
+        </div>
+    </section>
+
+
+   <!-- Skills Section -->
+    <section class="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <i class="fa-brands fa-html5"></i>
+                <h3>HTML/CSS</h3>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 90%;">90%</div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-js"></i>
+                <h3>JavaScript</h3>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 85%;">85%</div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-react"></i>
+                <h3>React.js</h3>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 80%;">80%</div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-node"></i>
+                <h3>Node.js & Express</h3>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 75%;">75%</div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-database"></i>
+                <h3>MongoDB & SQL</h3>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 70%;">70%</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Projects Section -->
+    <section class="projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <h3>Online Ticket Booking System</h3>
+                <p>Role-based train ticket platform with secure login and responsive design.</p>
+                <span>Technologies: Java, Oracle DB, HTML/CSS</span>
+            </div>
+            <div class="project-card">
+                <h3>Quizzie App</h3>
+                <p>An online quiz platform for educators with authentication and analytics.</p>
+                <span>Technologies: React.js, Node.js, MongoDB</span>
+            </div>
+            <div class="project-card">
+                <h3>Banking Website</h3>
+                <p>Static banking site with navigation and contact functionality.</p>
+                <span>Technologies: HTML, CSS, JavaScript</span>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Certificates Section -->
+    <section class="certificates">
+        <h2>Certificates</h2>
+        <div class="certificate-container">
+            <div class="certificate-card">
+                <i class="fa-solid fa-award"></i>
+                <h3>GO Lang</h3>
+                <p>Great Learning, Nov 2024</p>
+                <a href="https://shorturl.at/TVCyN" target="_blank" class="view-btn">View Certificate</a>
+            </div>
+            <div class="certificate-card">
+                <i class="fa-solid fa-code"></i>
+                <h3>MERN Stack Development</h3>
+                <p>Great Learning, Nov 2024</p>
+                <a href="https://shorturl.at/U12IL" target="_blank" class="view-btn">View Certificate</a>
+            </div>
+            <div class="certificate-card">
+                <i class="fa-solid fa-laptop-code"></i>
+                <h3>Front End Development</h3>
+                <p>Great Learning, Nov 2024</p>
+                <a href="https://shorturl.at/IysSB" target="_blank" class="view-btn">View Certificate</a>
+            </div>
+            <div class="certificate-card">
+                <i class="fa-solid fa-database"></i>
+                <h3>SQL</h3>
+                <p>HackerRank, Dec 2022</p>
+                <a href="https://www.hackerrank.com/certificates/b0d8fe5e5f9b" target="_blank" class="view-btn">View Certificate</a>
+            </div>
+            <div class="certificate-card">
+                <i class="fa-solid fa-puzzle-piece"></i>
+                <h3>Problem Solving</h3>
+                <p>HackerRank, Dec 2022</p>
+                <a href="https://www.hackerrank.com/certificates/db02d531e1b4" target="_blank" class="view-btn">View Certificate</a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Hire Me Section -->
+    <section class="hire-me">
+        <h2>Hire Me</h2>
+        <p>If you're looking for a passionate developer to work on your project or team, feel free to get in touch or download my CV below.</p>
+        <button class="cv-btn" onclick="downloadCV()">Download My CV</button>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <h2>Get In Touch</h2>
+        <p>Looking to collaborate or have a project idea? Let's build something amazing together!</p>
+        <button class="contact-btn" onclick="openContactForm()">Contact Me</button>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/mayank-kumar-verma-6a10a91a0/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/Mayank6388382016" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </section>
+
+    <!-- Contact Form Modal -->
+    <div id="contact-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeContactForm()">&times;</span>
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+
+                <label for="email">Your Email</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+
+                <label for="message">Your Message</label>
+                <textarea id="message" rows="4" placeholder="Write your message here" required></textarea>
+
+                <button type="submit" class="submit-btn">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Mayank Kumar Verma. All rights reserved.</p>
+    </footer>
+
+   
+    <!-- Script -->
+    <script>
+        // Toggle Theme (Light/Dark)
+        function toggleTheme() {
+            document.body.classList.toggle("dark-theme");
+        }
+
+        // Open Contact Form Modal
+        function openContactForm() {
+            document.getElementById('contact-modal').style.display = 'flex';
+        }
+
+        // Close Contact Form Modal
+        function closeContactForm() {
+            document.getElementById('contact-modal').style.display = 'none';
+        }
+
+        // Download CV Functionality
+        function downloadCV() {
+            // Replace with your actual CV path
+            window.open("cv/Mayank_Kumar_Verma_CV.pdf", "_blank");
+        }
+
+        // Close Modal When Clicking Outside
+        window.onclick = function(event) {
+            const modal = document.getElementById('contact-modal');
+            if (event.target === modal) {
+                modal.style.display = 'none';
+            }
+        };
+
+        // Handle Contact Form Submission
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent page refresh on form submission
+
+            // Display "Message Sent" Confirmation
+            const modalContent = document.querySelector('.modal-content');
+            modalContent.innerHTML = `
+                <span class="close-btn" onclick="closeContactForm()">&times;</span>
+                <h2>Message Sent!</h2>
+                <p>Thank you for reaching out. I'll get back to you as soon as possible.</p>
+            `;
+
+            // Automatically close the modal after 3 seconds
+            setTimeout(closeContactForm, 3000);
+        });
+    </script>
+
+</body>
+</html>
